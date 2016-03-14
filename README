@@ -1,0 +1,19 @@
+This is Perl module Acme::Kiyoshi.
+
+INSTALLATION
+
+Acme::Kiyoshi installation is straightforward. If your git is set cpanm
+you should just be able to do
+
+    $ cpanm https://github.com/Likk/Acme-Kiyoshi.git
+    $ perl -MAcme::Kiyoshi -E 'kiyoshi';
+
+DOCUMENTATION
+
+Acme::Kiyoshi documentation is available as in POD. So you can do:
+
+    % perldoc Acme::Kiyoshi
+
+to read the documentation online with your favorite pager.
+
+likkradyus
