@@ -30,7 +30,7 @@ sub kiyoshi {
         print sprintf("%s ", my $pick = shuffle @PATTERN);
         push @list, $pick;
         last if join('', @list) eq join('', @EXPECT);
-        shift @list if scalar @list >= 5;
+        shift @list if scalar @list >= @EXPECT;
     }
     return print "KI.YO.SHI!\n";
 }
